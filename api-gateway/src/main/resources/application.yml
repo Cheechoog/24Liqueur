@@ -1,0 +1,93 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        # ── Usuarios Service ────────────────────────────────────────────
+        - id: usuarios-service
+          uri: http://usuarios-service:8081
+          predicates:
+            - Path=/api/usuarios/**
+          filters:
+            - StripPrefix=1
+
+        # ── Catálogo Service ────────────────────────────────────────────
+        - id: catalogo-service
+          uri: http://catalogo-service:8082
+          predicates:
+            - Path=/api/catalogo/**
+          filters:
+            - StripPrefix=1
+
+        # ── Pedidos Service ─────────────────────────────────────────────
+        - id: pedidos-service
+          uri: http://pedidos-service:8083
+          predicates:
+            - Path=/api/pedidos/**
+          filters:
+            - StripPrefix=1
+            - name: AuthFilter   # aplica JWT en rutas protegidas
+
+        # ── Pagos Service ───────────────────────────────────────────────
+        - id: pagos-service
+          uri: http://pagos-service:8084
+          predicates:
+            - Path=/api/pagos/**
+          filters:
+            - StripPrefix=1
+            - name: AuthFilter
+
+        # ── Inventario Service ──────────────────────────────────────────
+        - id: inventario-service
+          uri: http://inventario-service:8085
+          predicates:
+            - Path=/api/inventario/**
+          filters:
+            - StripPrefix=1
+
+        # ── Tiendas Service ─────────────────────────────────────────────
+        - id: tiendas-service
+          uri: http://tiendas-service:8086
+          predicates:
+            - Path=/api/tiendas/**
+          filters:
+            - StripPrefix=1
+
+        # ── Envíos Service ──────────────────────────────────────────────
+        - id: envios-service
+          uri: http://envios-service:8087
+          predicates:
+            - Path=/api/envios/**
+          filters:
+            - StripPrefix=1
+            - name: AuthFilter
+
+        # ── Notificaciones Service ──────────────────────────────────────
+        - id: notificaciones-service
+          uri: http://notificaciones-service:8088
+          predicates:
+            - Path=/api/notificaciones/**
+          filters:
+            - StripPrefix=1
+
+jwt:
+  secret: "super_secret_key_change_in_production_min32chars"
+
+# Rutas públicas que NO requieren JWT
+gateway:
+  public-paths:
+    - /api/usuarios/auth/login
+    - /api/usuarios/auth/register
+    - /api/catalogo
+    - /api/tiendas
+    - /actuator/health
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
