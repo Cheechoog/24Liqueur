@@ -1,12 +1,14 @@
 server:
   port: 8087
+
 spring:
   application:
     name: envios-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/envios_db
+    url: jdbc:postgresql://localhost:5438/envios_db
     username: admin
     password: secret
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: validate
@@ -14,6 +16,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
   flyway:
     enabled: true
     locations: classpath:db/migration
@@ -22,16 +25,26 @@ spring:
     port: 5672
     username: guest
     password: guest
+
 springdoc:
+  api-docs:
+    path: /v3/api-docs
   swagger-ui:
     path: /swagger-ui.html
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
 ---
 spring:
   config:
     activate:
       on-profile: docker
   datasource:
-    url: ${SPRING_DATASOURCE_URL}
+    url: jdbc:postgresql://db-envios:5432/envios_db
     username: ${SPRING_DATASOURCE_USERNAME:admin}
     password: ${SPRING_DATASOURCE_PASSWORD:secret}
   rabbitmq:

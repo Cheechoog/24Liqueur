@@ -105,4 +105,18 @@ public class UsuarioService {
         u.setActivo(false);
         usuarioRepository.save(u);
     }
+
+    // ── Reactivar cuenta ──────────────────────────────────────────────────────
+    @Transactional
+    public UsuarioDto.UsuarioResponse activate(UUID id) {
+        Usuario u = usuarioRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Usuario no encontrado."));
+        if (u.getActivo()) {
+            throw new IllegalArgumentException("La cuenta ya está activa.");
+        }
+        u.setActivo(true);
+        usuarioRepository.save(u);
+        log.info("Cuenta reactivada: {}", u.getEmail());
+        return UsuarioDto.UsuarioResponse.from(u);
+    }
 }

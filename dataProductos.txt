@@ -1,0 +1,112 @@
+[
+  {
+    "nombre": "Whisky Old Parr 12 Años",
+    "descripcion": "Whisky escocés añejado 12 años con notas suaves de vainilla y roble.",
+    "categoriaId": "11111111-1111-1111-1111-111111111111",
+    "marca": "Old Parr",
+    "precio": 145000.00,
+    "precioOferta": 129900.00,
+    "graduacion": 40,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/oldparr12.jpg"
+  },
+  {
+    "nombre": "Ron Medellín Añejo",
+    "descripcion": "Ron colombiano añejado con sabor intenso y balanceado.",
+    "categoriaId": "22222222-2222-2222-2222-222222222222",
+    "marca": "Medellín",
+    "precio": 85000.00,
+    "precioOferta": 79000.00,
+    "graduacion": 35,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/ronmedellin.jpg"
+  },
+  {
+    "nombre": "Tequila José Cuervo Especial",
+    "descripcion": "Tequila dorado ideal para cócteles y shots.",
+    "categoriaId": "33333333-3333-3333-3333-333333333333",
+    "marca": "José Cuervo",
+    "precio": 120000.00,
+    "precioOferta": 109900.00,
+    "graduacion": 38,
+    "volumenMl": 700,
+    "imagenUrl": "https://licorstore.com/img/josecuervo.jpg"
+  },
+  {
+    "nombre": "Vodka Absolut Blue",
+    "descripcion": "Vodka premium sueco de sabor puro y suave.",
+    "categoriaId": "44444444-4444-4444-4444-444444444444",
+    "marca": "Absolut",
+    "precio": 98000.00,
+    "precioOferta": 89900.00,
+    "graduacion": 40,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/absolutblue.jpg"
+  },
+  {
+    "nombre": "Aguardiente Amarillo",
+    "descripcion": "Aguardiente colombiano tradicional con sabor suave.",
+    "categoriaId": "55555555-5555-5555-5555-555555555555",
+    "marca": "Amarillo",
+    "precio": 45000.00,
+    "precioOferta": 39900.00,
+    "graduacion": 29,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/amarillo.jpg"
+  },
+  {
+    "nombre": "Cerveza Corona Extra",
+    "descripcion": "Cerveza lager mexicana refrescante y ligera.",
+    "categoriaId": "66666666-6666-6666-6666-666666666666",
+    "marca": "Corona",
+    "precio": 8000.00,
+    "precioOferta": 6500.00,
+    "graduacion": 4,
+    "volumenMl": 355,
+    "imagenUrl": "https://licorstore.com/img/corona.jpg"
+  },
+  {
+    "nombre": "Gin Bombay Sapphire",
+    "descripcion": "Gin premium infusionado con botánicos seleccionados.",
+    "categoriaId": "77777777-7777-7777-7777-777777777777",
+    "marca": "Bombay Sapphire",
+    "precio": 135000.00,
+    "precioOferta": 119900.00,
+    "graduacion": 40,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/bombay.jpg"
+  },
+  {
+    "nombre": "Vino Gato Negro Cabernet",
+    "descripcion": "Vino tinto chileno con notas frutales intensas.",
+    "categoriaId": "88888888-8888-8888-8888-888888888888",
+    "marca": "Gato Negro",
+    "precio": 42000.00,
+    "precioOferta": 35900.00,
+    "graduacion": 13,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/gatonegro.jpg"
+  },
+  {
+    "nombre": "Champaña JP Chenet Ice",
+    "descripcion": "Espumoso francés ideal para celebraciones.",
+    "categoriaId": "99999999-9999-9999-9999-999999999999",
+    "marca": "JP Chenet",
+    "precio": 76000.00,
+    "precioOferta": 69900.00,
+    "graduacion": 11,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/jpchenet.jpg"
+  },
+  {
+    "nombre": "Whisky Buchanan's Deluxe",
+    "descripcion": "Whisky escocés premium con sabor suave y elegante.",
+    "categoriaId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "marca": "Buchanan's",
+    "precio": 189000.00,
+    "precioOferta": 169900.00,
+    "graduacion": 40,
+    "volumenMl": 750,
+    "imagenUrl": "https://licorstore.com/img/buchanans.jpg"
+  }
+]

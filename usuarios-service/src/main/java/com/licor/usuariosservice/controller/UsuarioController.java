@@ -61,4 +61,11 @@ public class UsuarioController {
         usuarioService.deactivate(id);
         return ResponseEntity.noContent().build();
     }
+    // ── PUT /auth/usuarios/{id}/activar ───────────────────────────────────────
+    @PutMapping("/usuarios/{id}/activar")
+    @Operation(summary = "Reactivar cuenta de usuario desactivada (ADMIN)")
+    public ResponseEntity<UsuarioDto.UsuarioResponse> activate(@PathVariable UUID id) {
+        return ResponseEntity.ok(usuarioService.activate(id));
+    }
+
 }

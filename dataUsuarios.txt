@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "Carlos",
+    "apellido": "Ramirez",
+    "email": "carlos.ramirez01@testmail.com",
+    "password": "Carlos123*",
+    "telefono": "3004567891",
+    "fechaNac": "1995-03-12"
+  },
+  {
+    "nombre": "Laura",
+    "apellido": "Gomez",
+    "email": "laura.gomez02@testmail.com",
+    "password": "Laura123*",
+    "telefono": "3015678923",
+    "fechaNac": "1998-07-25"
+  },
+  {
+    "nombre": "Andres",
+    "apellido": "Martinez",
+    "email": "andres.martinez03@testmail.com",
+    "password": "Andres123*",
+    "telefono": "3026789345",
+    "fechaNac": "1993-11-08"
+  },
+  {
+    "nombre": "Valentina",
+    "apellido": "Lopez",
+    "email": "valentina.lopez04@testmail.com",
+    "password": "Vale123*",
+    "telefono": "3207894561",
+    "fechaNac": "2000-01-19"
+  },
+  {
+    "nombre": "Sebastian",
+    "apellido": "Torres",
+    "email": "sebastian.torres05@testmail.com",
+    "password": "Seba123*",
+    "telefono": "3154567821",
+    "fechaNac": "1997-09-14"
+  },
+  {
+    "nombre": "Camila",
+    "apellido": "Herrera",
+    "email": "camila.herrera06@testmail.com",
+    "password": "Camila123*",
+    "telefono": "3109876542",
+    "fechaNac": "1999-06-30"
+  },
+  {
+    "nombre": "Daniel",
+    "apellido": "Castro",
+    "email": "daniel.castro07@testmail.com",
+    "password": "Daniel123*",
+    "telefono": "3046789123",
+    "fechaNac": "1994-12-11"
+  },
+  {
+    "nombre": "Natalia",
+    "apellido": "Rojas",
+    "email": "natalia.rojas08@testmail.com",
+    "password": "Naty123*",
+    "telefono": "3112345678",
+    "fechaNac": "2001-04-22"
+  },
+  {
+    "nombre": "Felipe",
+    "apellido": "Moreno",
+    "email": "felipe.moreno09@testmail.com",
+    "password": "Felipe123*",
+    "telefono": "3176543210",
+    "fechaNac": "1992-08-17"
+  },
+  {
+    "nombre": "Juliana",
+    "apellido": "Vargas",
+    "email": "juliana.vargas10@testmail.com",
+    "password": "Juliana123*",
+    "telefono": "3187654321",
+    "fechaNac": "1996-05-03"
+  }
+]

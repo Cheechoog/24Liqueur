@@ -1,0 +1,62 @@
+[
+  {
+    "nombre": "Whisky",
+    "descripcion": "Licores tipo whisky nacionales e importados de diferentes añejamientos y presentaciones."
+  },
+  {
+    "nombre": "Ron",
+    "descripcion": "Variedad de rones añejos, blancos y premium ideales para cualquier ocasión."
+  },
+  {
+    "nombre": "Vodka",
+    "descripcion": "Vodkas nacionales e internacionales para coctelería y consumo premium."
+  },
+  {
+    "nombre": "Tequila",
+    "descripcion": "Tequilas reposados, blancos y añejos de marcas reconocidas."
+  },
+  {
+    "nombre": "Aguardiente",
+    "descripcion": "Aguardientes colombianos tradicionales y saborizados."
+  },
+  {
+    "nombre": "Cerveza",
+    "descripcion": "Cervezas nacionales, importadas, artesanales y premium."
+  },
+  {
+    "nombre": "Vino",
+    "descripcion": "Vinos tintos, blancos, rosados y espumosos de diferentes regiones."
+  },
+  {
+    "nombre": "Gin",
+    "descripcion": "Ginebras premium ideales para preparar cócteles y gin tonic."
+  },
+  {
+    "nombre": "Champaña",
+    "descripcion": "Champañas y vinos espumosos para celebraciones especiales."
+  },
+  {
+    "nombre": "Licores Premium",
+    "descripcion": "Selección exclusiva de bebidas alcohólicas de alta gama."
+  },
+  {
+    "nombre": "Bebidas Energéticas",
+    "descripcion": "Bebidas energéticas ideales para acompañar licores y cocteles."
+  },
+  {
+    "nombre": "Mixer y Gaseosas",
+    "descripcion": "Gaseosas, agua tónica y mezcladores para preparar bebidas."
+  },
+  {
+    "nombre": "Shots y Miniaturas",
+    "descripcion": "Presentaciones pequeñas y shots de diferentes tipos de licor."
+  },
+  {
+    "nombre": "Coctelería",
+    "descripcion": "Productos e ingredientes para preparación de cócteles."
+  },
+  {
+    "nombre": "Promociones",
+    "descripcion": "Combos y promociones especiales disponibles por tiempo limitado."
+  }
+]
